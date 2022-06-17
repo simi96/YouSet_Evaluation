@@ -1,0 +1,17 @@
+.pointer {
+    cursor: pointer;
+}
+
+.email {
+    align-content: center;
+}
+
+.submit-btn {
+    margin-top: 50px;
+    margin-left: 650px;
+}
+
+.formFieldClass {
+    margin-top: 100px;
+    margin-left: 550px;
+}
