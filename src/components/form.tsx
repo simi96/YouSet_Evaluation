@@ -56,7 +56,7 @@ export const FormComponent = (props: RowData) => {
         value = {userData.email} label = "What's your email?" type="text" required onChange = {(e) => (handleUserInfoChange(e, 'email'))}/>
         <br/>
 
-        <TextField className = 'formFieldClass' id = "age-input" type = 'number' error = {errorData.ageError} helperText = {errorData.ageError ? "Please enter valid age" : ""} required name = "age" label="How old are you?" onChange = {(e) => (handleUserInfoChange(e, 'age'))}/> 
+        <TextField className = 'formFieldClass' id = "age-input" type = 'number' error = {errorData.ageError} helperText = {errorData.ageError ? "Please enter age between 1 and 100" : ""} required name = "age" label="How old are you?" onChange = {(e) => (handleUserInfoChange(e, 'age'))}/> 
         <br/> <br/>
 
         <FormControl>
